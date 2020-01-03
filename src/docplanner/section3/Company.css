@@ -1,0 +1,46 @@
+.p-brand{
+    color:#00b39b ;
+    font-size: 27px;
+    width:300px;
+    margin-right:28px;
+    /* margin-left:15px; */
+    border:1px solid red;
+    padding-top:15px;
+   display: flex;
+   flex-direction: column;
+  
+  }
+  .brands-section{
+  display:flex;
+  padding-left: 185px;
+  padding-right: 185px;
+  padding-bottom:60px ;
+  padding-top:60px ;
+  
+  }
+  .liste-brand{
+    /* width:700px; */
+    border:1px solid red;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    display:flex;
+    padding-top:25px;
+
+    
+    }
+    
+    .liste-logo{
+       width:auto;
+       margin-right:10px;
+    }
+    .svg-hover{
+    
+      fill :#ababab;
+    
+    }
+      
+    a svg:hover{
+      fill :#00b39b;
+    }
+    

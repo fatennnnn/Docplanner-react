@@ -1,0 +1,29 @@
+.section1{
+  padding-left: 185px ;
+    padding-right: 185px ;
+}
+.lead-title {
+    text-align: center;
+  
+      display: block;
+      margin: 0 auto;}
+      
+.titlesite{
+        /* text-align: center;
+         margin: 0 auto;*/
+color:#00b39b;
+font-size: 2.125rem;}
+.left-right{
+    color:#747474;
+  font-size: 19px;
+    display:flex;
+    /* margin: 0px 100px; */
+  line-height: 1.75;
+  justify-content: space-between;
+  }
+  .left{
+
+  width :49%;
+  }
+  .right{
+  width :49%;}

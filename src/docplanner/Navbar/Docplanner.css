@@ -1,0 +1,83 @@
+.logo-docplanner{
+    /* margin-left: 20px; */
+    height: 33px;
+    width: 268px;
+  /* padding:37px; */
+}
+.menu {
+  /* position:right; */
+  list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   width: 350px;
+   font-size: .9375rem;
+   font-weight: bold;
+   
+ }
+ .dropdown {
+  border: 1px solid green;
+   position: relative;
+   display: inline-block;
+
+ }
+ .classtotal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+/* margin:20px 190px; */
+background: white;
+top:0;
+position:sticky;
+padding-left: 185px ;
+    padding-right: 185px ;
+ }
+ .list{
+  display:none;
+  list-style:  none;
+  position: absolute;
+  padding-top:20px;
+
+  /* padding-left:0;  */
+  text-align: left;
+  width :200px;
+  border:2px solid #2196F7;
+  padding: 0;
+  color: #818a98;
+  background-color: white;
+ 
+  right: 0;
+  height:220px;
+ 
+  justify-content: space-between;
+box-shadow: 0 5px 10px 0 #d3cfc9;
+  }
+a {
+    text-decoration: none;
+    color:#ababab;
+  }
+.limenu:hover{
+  background-color:gray;
+  /* color:#00b39b; */
+
+    }
+
+    .limenu:hover a{
+      color:#00b39b;
+    }
+
+.listee:hover{
+      color:#00b39b;
+  }
+  .dropdown:hover .list{
+    display:block;
+}
+.limenu{
+  font-size: 16px;
+  margin-top: 17px;
+  
+  /* background-color:gray;
+  border: solid red; */
+
+
+}

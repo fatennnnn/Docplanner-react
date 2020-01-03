@@ -1,0 +1,78 @@
+.patient-docteur{
+    display:flex;
+    padding-left: 185px ;
+    padding-right: 185px ;
+  
+    padding-top: 60px;
+
+    justify-content: space-between;
+
+    /* margin:20px 190px; */
+
+  
+  }
+
+.patient
+{
+
+  background:#00b39b ;
+  border-radius: 10px;
+
+height:380px;
+width:458px;
+overflow: hidden;
+
+}
+.doctor{
+ 
+    border:2px solid red;
+    /* padding-left:35px; */
+  
+    background:#3d83df;
+    border-radius: 10px;
+  height:380px;
+  width:458px;
+  overflow: hidden;
+  }
+
+.patient-title{
+    padding-left:25px;
+  
+  }
+  .img-right{
+    width: 380px;
+    height: 228px;
+    margin-left:170px;
+    margin-top:35px;
+    /* position :absolute; */
+  
+  }
+  select{
+    width: 190px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 5px;
+    text-align: center;
+  
+    /* padding-left:20px; */
+    
+  }
+  h2,h6{
+    color:white;
+  }
+  .part-patient{
+
+    display:flex;
+    border:2px solid;
+    }
+    .img-patient{
+        margin-left: -25px;
+        width: 481px;
+        height: 228px;
+
+    }
+    .img-doctor{
+        margin-left: 140px;
+        width: 450px;
+        height: 228px;
+    }
